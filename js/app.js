@@ -21,7 +21,7 @@ const TIPS = [
 ];
 
 /* ---------- Composants ---------- */
-const logo = (c) => `<div class="brand"><span class="brand-mark">${I("leaf", c ? 17 : 20, { sw: 2.6 })}</span>${c ? "" : "<span>Recyclean</span>"}</div>`;
+const logo = (c) => `<div class="brand"><span class="brand-mark"><img src="./icons/logo-96.png" alt="Logo Recyclean"></span>${c ? "" : "<span>Recyclean</span>"}</div>`;
 const toggle = (on, a) => `<button class="toggle ${on ? "is-on" : ""}" data-a="${a}" role="switch" aria-checked="${on}" aria-label="${on ? "Désactiver" : "Activer"}"><span></span></button>`;
 const pill = (t, tone = "green") => `<span class="status-pill ${tone}">${t}</span>`;
 const go = (s, icon, label, cls = "") => `<button class="${cls}" data-a="go" data-v="${s}">${icon}${label}</button>`;

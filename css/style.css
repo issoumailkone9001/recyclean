@@ -2530,3 +2530,9 @@ button{cursor:pointer}svg{display:block;flex-shrink:0}textarea{resize:vertical}
 .toast{position:fixed;left:50%;bottom:104px;transform:translateX(-50%);background:#173a34;color:#fff;padding:12px 18px;border-radius:14px;font-weight:600;font-size:14px;z-index:99;box-shadow:0 8px 24px rgba(0,0,0,.2);animation:rise .25s ease}
 :focus-visible{outline:3px solid #cfe56d;outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Logo officiel */
+.brand-mark{width:42px;height:42px;background:none;border-radius:0;transform:none;color:inherit}
+.brand-mark img{width:100%;height:100%;object-fit:contain;display:block}
+.side-nav .brand-mark{background:#fff;border-radius:14px;padding:4px;width:46px;height:46px}
+.sample-notification .brand-mark{width:34px;height:34px}
